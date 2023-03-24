@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&family=Roboto+Condensed&family=Rubik&family=Ubuntu:ital@1&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+body{
+    background-color: rgb(195, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 100vw;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    margin-top: 50px;
+    margin-left: 30px;
+    border: 2px solid white;
+    height: 400px;
+    width: 350px;
+    padding: 5px;
+}
+
+#display{
+    width: 99.3%;
+    margin-top: 30px;
+    margin-right: 5px;
+    height: 50px;
+    background-color: #340877;
+    color: white;
+    border: 2px solid white;
+    font-size: larger;
+
+
+}
+.operator{
+    width: 24%;
+    height: 50px;
+    margin-top: 5px;
+    background-color: rgb(105, 8, 97);
+    color: white;
+    font-weight: bolder;
+}
+.equaloperator{
+    width: 49%;
+    height: 50px;
+    margin-top: 5px;
+    background-color: rgb(105, 8, 97);
+    color: white;
+    font-weight: bolder;
+}
+
+
